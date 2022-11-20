@@ -8,7 +8,7 @@ public class EndlessTextScript : MonoBehaviour
 	// Token: 0x0600002A RID: 42 RVA: 0x000029CB File Offset: 0x00000DCB
 	private void Start()
 	{
-		this.text.text = "Endless Mode:\nCollect as many notebooks as you can!\nHigh Score:\n " + PlayerPrefs.GetInt("HighBooks") + " Notebooks";
+		this.text.text = "Endless Mode:\nCollect as many textbooks as you can!\nHigh Score:\n " + PlayerPrefs.GetInt("HighBooks") + " Textbooks";
 	}
 
 	// Token: 0x0600002B RID: 43 RVA: 0x000029F6 File Offset: 0x00000DF6
